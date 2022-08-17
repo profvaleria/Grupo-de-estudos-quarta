@@ -1,19 +1,24 @@
+head {
+    image-rendering: crisp-edges;
+}
+
+
 body {
-background-color: green; 
+background-color: rgb(135, 226, 126); 
 }
 
 h1 {
-    color: aliceblue; text-decoration: double; font-size: 50px; text-align: center;
+    color: rgb(1, 11, 20); text-decoration: double; font-size: 50px; text-align: center;
 
 }
 h2 { 
-    color: aliceblue; text-align: center;
+    color: rgb(1, 5, 8); text-align: center;
 }
 
 p {
-    text-align: inherit; color: aliceblue; font-size: 35px; text-align: right;
+    text-align: inherit; color: rgb(6, 11, 15); font-size: 35px; text-align: right;
 }
 
 i{
-    text-align: left; color: beige; font-size: 35px;
+    text-align: left; color: rgb(12, 12, 3); font-size: 35px; text-align: justify;
 }
