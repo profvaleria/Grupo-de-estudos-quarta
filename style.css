@@ -1,5 +1,5 @@
 head {
-    image-rendering: crisp-edges;
+    border-image: none;
 }
 
 
