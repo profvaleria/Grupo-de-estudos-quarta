@@ -1,24 +1,63 @@
-head {
-    border-image: none;
-}
-
-
 body {
-background-color: rgb(135, 226, 126); 
+    background-color: rgb(241, 244, 247);
+    text-align: justify;
 }
 
 h1 {
-    color: rgb(1, 11, 20); text-decoration: double; font-size: 50px; text-align: center;
-
+    color: rgba(145, 255, 0, 0.788);
+    text-align: center;
 }
-h2 { 
-    color: rgb(1, 5, 8); text-align: center;
+
+h2 {
+    color: rgb(233, 51, 51);
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    border: 5px double red;
+    padding: 10px;
+    margin: 100px;
+}
+
+h4{
+    color: red;
+    text-align: center;
 }
 
 p {
-    text-align: inherit; color: rgb(6, 11, 15); font-size: 35px; text-align: right;
+    font-size: 30px;
 }
 
-i{
-    text-align: left; color: rgb(12, 12, 3); font-size: 35px; text-align: justify;
+#imagem1 
+    border: 5px solid #a753ba;
+    width: 50px;
+}
+
+#imagem2 {
+    border: 10px dotted #711b84;
+    height: 10%;
+    width: 10%;
+}
+.imagem3 {
+    width: 30%;
+    height: 40%;
+}
+
+li::marker {
+    content: "\2606";
+    color:blue;
+    font-size: 30px;
+}
+
+.itens {
+    background-color: black;
+    color: yellow;
+  
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    margin: 5%;
 }
