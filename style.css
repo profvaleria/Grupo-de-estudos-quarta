@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(241, 244, 247);
+    background-color: rgb(69, 182, 74);
     text-align: justify;
 }
 
@@ -31,7 +31,7 @@ p {
 
 #imagem1 
     border: 5px solid #a753ba;
-    width: 50px;
+    width: 150px;
 }
 
 #imagem2 {
@@ -40,8 +40,8 @@ p {
     width: 10%;
 }
 .imagem3 {
-    width: 30%;
-    height: 40%;
+    width: 10%;
+    height: 15%;
 }
 
 li::marker {
