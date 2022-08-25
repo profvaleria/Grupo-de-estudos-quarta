@@ -15,15 +15,11 @@ h2 {
 
 h3 {
     text-align: center;
-    border: 5px double red;
+    border: 5px double rgb(9, 255, 0);
     padding: 10px;
     margin: 100px;
 }
 
-h4{
-    color: red;
-    text-align: center;
-}
 
 p {
     font-size: 30px;
@@ -31,17 +27,15 @@ p {
 
 #imagem1 
     border: 5px solid #a753ba;
-    width: 150px;
+    width: 50%;
+    height: 50%;
+    display: inline-block;
 }
 
-#imagem2 {
+.img {
     border: 10px dotted #711b84;
-    height: 10%;
-    width: 10%;
-}
-.imagem3 {
-    width: 10%;
-    height: 15%;
+    height: 50%;
+    width: 50%;
 }
 
 li::marker {
