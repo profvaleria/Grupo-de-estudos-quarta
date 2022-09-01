@@ -4,25 +4,29 @@ body {
 }
 
 h1 {
-    color: rgba(145, 255, 0, 0.788);
+    color: rgba(29, 14, 240, 0.788);
     text-align: center;
 }
 
 h2 {
-    color: rgb(233, 51, 51);
-    text-align: center;
+    color: rgb(59, 10, 175);
+    text-decoration: double; text-align: left;
+    
+}
+
+h5{ 
+    font-size: xx-large;
+       text-align:center;
 }
 
 h3 {
     text-align: center;
-    border: 5px double red;
-    padding: 10px;
-    margin: 100px;
+    
 }
 
 h4{
-    color: red;
-    text-align: center;
+    color: rgb(6, 2, 20);
+    text-align: justify;
 }
 
 p {
@@ -43,8 +47,8 @@ li::marker {
 }
 
 .itens {
-    background-color: black;
-    color: yellow;
+    background-color: rgb(59, 179, 23);
+    color: rgb(10, 9, 7);
   
 }
 
